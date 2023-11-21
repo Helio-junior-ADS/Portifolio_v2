@@ -13,7 +13,6 @@ const Portifolio = () => {
       .get(URL_user)
       .then((res) => {
         setRepos(res.data);
-        console.log(res.data);
       })
       .catch((err) => {
         console.log("Erro:", err);
