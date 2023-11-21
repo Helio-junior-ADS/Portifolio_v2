@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        chunkFileNames: 'assets/js/[name]-[hash].js',
-        entryFileNames: 'assets/js/[name]-[hash].js',
+        chunkFileNames: 'assets/jsx/[name]-[hash].jsx',
+        entryFileNames: 'assets/jsx/[name]-[hash].jsx',
         
         assetFileNames: ({name}) => {
           if (/\.(gif|jpe?g|png|svg)$/.test(name ?? '')){
