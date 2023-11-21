@@ -8,7 +8,7 @@ const Caro = () => {
         <Carousel.Item>
           <img
             className="h-96 w-full mx-auto img-responsive"
-            src="dist/assets/images/flex01.png"
+            src="src/assets/flex01.png"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -18,7 +18,7 @@ const Caro = () => {
         <Carousel.Item>
           <img
             className="h-96 w-full mx-auto img-responsive"
-            src="dist/assets/images/imdb.png"
+            src="src/assets/imdb.png"
             alt="Third slide"
           
           />
@@ -29,7 +29,7 @@ const Caro = () => {
         <Carousel.Item>
           <img
             className="h-96 w-full mx-auto img-responsive"
-            src="dist/assets/images/jogo01.jpg"
+            src="src/assets/jogo01.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -39,7 +39,7 @@ const Caro = () => {
         <Carousel.Item>
           <img
             className="h-96 w-full mx-auto img-responsive"
-            src="dist/assets/images/tempo01.png"
+            src="src/assets/tempo01.png"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -49,7 +49,7 @@ const Caro = () => {
         <Carousel.Item>
           <img
             className="h-96 w-full mx-auto img-responsive"
-            src="dist/assets/images/todolist01.png"
+            src="src/assets/todolist01.png"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -59,7 +59,7 @@ const Caro = () => {
         <Carousel.Item>
           <img
             className="h-96 w-full mx-auto img-responsive"
-            src="dist/assets/images/validaCpf.png"
+            src="src/assets/validaCpf.png"
             alt="First slide"
           />
           <Carousel.Caption>
