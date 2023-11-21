@@ -12,16 +12,16 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const NavBar = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand>Hélio Júnior</Navbar.Brand>
+    <Navbar expand="lg" bg="dark" data-bs-theme="dark">
+      <Container className="">
+        <Navbar.Brand href="/">Hélio Júnior</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link><Link to={"/sobre"}>Sobre</Link></Nav.Link>
             <Nav.Link><Link to={"/portfolio"}>Portfolio</Link></Nav.Link>
             <NavDropdown title="Contato" id="basic-nav-dropdown">
-              <NavDropdown.Item href="https://github.com/Helio-junior-ADS" target="_blank">Github</NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/Helio-junior-ADS" target="_blank">GitHub</NavDropdown.Item>
               <NavDropdown.Item href="https://www.linkedin.com/in/h%C3%A9lio-j%C3%BAnior-81aa6612a/" target="_blank">
               Linkedin
               </NavDropdown.Item>
