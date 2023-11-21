@@ -1,5 +1,4 @@
 import { useEffect, useState, React } from "react";
-import { DiGithubFull } from "react-icons/di";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
