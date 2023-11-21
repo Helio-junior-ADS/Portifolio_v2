@@ -1,19 +1,42 @@
-<div>
-<div className="flex flex-wrap justify-around">{repos.map(item => (
-  <div className="rounded-md border-solid border-2 border-gray-500 shadow-2xl w-1/5 m-5 text-center" key={item.id}>
-    <div className="flex flex-col items-center overflow-hidden overflow-ellipsis">
-        <div className="p-1 ">
-          {item.name}
-        </div>
+import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaHeading } from "react-icons/fa6";
+import { Link } from "react-router-dom"
 
-        <div className="p-1">
-          {item.language}
-        </div>
 
-        <div className="">
-          <a className="text-[50px]" href={item.html_url}><DiGithubFull/></a>
-        </div>
-    </div>
-  </div>
-))}</div>
-</div>
+const NavBar = () => {
+  return (
+    <nav className='flex flex-wrap justify-around items-center text-lg h-20 bg-black text-white'>
+      <div className="text-5xl">
+        <FaHeading/>
+      </div>
+
+      <ul className="flex text-xl">
+        <li className="mx-5 text-white hover:text-gray-300">
+          <Link to={"/sobre"}>Sobre</Link>
+        </li>
+        <li className="mx-5 text-white hover:text-gray-300">
+          <Link to={"/portfolio"}>Portfólio</Link>
+        </li>
+        <li className="mx-5 text-white hover:text-gray-300">
+          <Link to={"/contacto"}>Contacto</Link>
+        </li>
+      </ul>
+
+      <ul className="flex">
+          <li className='mx-5 text-3xl'>
+            <a href="https://github.com/Helio-junior-ADS" target='_blank' rel="noreferrer"><FaGithub /></a>   
+          </li>
+
+          <li className='mx-5 text-3xl'>
+            <a href="https://www.linkedin.com/in/h%C3%A9lio-j%C3%BAnior-81aa6612a/" target='_blank' rel="noreferrer"><FaLinkedin /></a>   
+          </li>
+      </ul>
+
+
+
+    </nav>
+  );
+};
+
+export default NavBar;
