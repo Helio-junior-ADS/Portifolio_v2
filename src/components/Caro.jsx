@@ -8,7 +8,7 @@ const Caro = () => {
         <Carousel.Item>
           <img
             className="h-96 w-full mx-auto img-responsive"
-            src="https://github.com/Helio-junior-ADS/Portifolio_v2/blob/main/src/components/img/Flex.png?raw=true"
+            src="https://github.com/Helio-junior-ADS/Fotos_Portifolio/blob/main/assets/Flex.png?raw=true"
            
           />
           <Carousel.Caption>
@@ -18,7 +18,7 @@ const Caro = () => {
         <Carousel.Item>
           <img
             className="h-96 w-full mx-auto img-responsive"
-            src="https://github.com/Helio-junior-ADS/Portifolio_v2/blob/main/src/components/img/Imdb.png?raw=true"
+            src="https://github.com/Helio-junior-ADS/Fotos_Portifolio/blob/main/assets/Imdb.png?raw=true"
             alt="Third slide"
           
           />
@@ -29,7 +29,7 @@ const Caro = () => {
         <Carousel.Item>
           <img
             className="h-96 w-full mx-auto img-responsive"
-            src="https://github.com/Helio-junior-ADS/Portifolio_v2/blob/main/src/components/img/Jogo.jpg?raw=true"
+            src="https://github.com/Helio-junior-ADS/Fotos_Portifolio/blob/main/assets/Jogo.jpg?raw=true"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -39,7 +39,7 @@ const Caro = () => {
         <Carousel.Item>
           <img
             className="h-96 w-full mx-auto img-responsive"
-            src="https://github.com/Helio-junior-ADS/Portifolio_v2/blob/main/src/components/img/Tempo.png?raw=true"
+            src="https://github.com/Helio-junior-ADS/Fotos_Portifolio/blob/main/assets/Tempo.png?raw=true"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -49,7 +49,7 @@ const Caro = () => {
         <Carousel.Item>
           <img
             className="h-96 w-full mx-auto img-responsive"
-            src="https://github.com/Helio-junior-ADS/Portifolio_v2/blob/main/src/components/img/Todolist.png?raw=true"
+            src="https://github.com/Helio-junior-ADS/Fotos_Portifolio/blob/main/assets/Todolist.png?raw=true"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -59,7 +59,7 @@ const Caro = () => {
         <Carousel.Item>
           <img
             className="h-96 w-full mx-auto img-responsive"
-            src="https://github.com/Helio-junior-ADS/Portifolio_v2/blob/main/src/components/img/Valida.png?raw=true"
+            src="https://github.com/Helio-junior-ADS/Fotos_Portifolio/blob/main/assets/Valida.png?raw=true"
             alt="First slide"
           />
           <Carousel.Caption>
