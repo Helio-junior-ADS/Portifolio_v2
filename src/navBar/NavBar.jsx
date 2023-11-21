@@ -14,12 +14,12 @@ const NavBar = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/sobre">Hélio Júnior</Navbar.Brand>
+        <Navbar.Brand href={"/sobre"}>Hélio Júnior</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/sobre">Sobre</Nav.Link>
-            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+            <Nav.Link href={"/sobre"}>Sobre</Nav.Link>
+            <Nav.Link href={"/portfolio"}>Portfolio</Nav.Link>
             <NavDropdown title="Contato" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://github.com/Helio-junior-ADS" target="_blank">Github</NavDropdown.Item>
               <NavDropdown.Item href="https://www.linkedin.com/in/h%C3%A9lio-j%C3%BAnior-81aa6612a/" target="_blank">
