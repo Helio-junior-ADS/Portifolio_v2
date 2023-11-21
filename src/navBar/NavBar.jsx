@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <Navbar expand="lg" bg="dark" data-bs-theme="dark">
       <Container className="">
-        <Navbar.Brand href="/">Hélio Júnior</Navbar.Brand>
+        <Navbar.Brand>Hélio Júnior</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
